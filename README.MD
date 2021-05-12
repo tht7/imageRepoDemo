@@ -19,3 +19,10 @@ You can change the settings with some environment variables:
 | NODE_TIME_LIMIT      | How many seconds until the user throttling timer expires      |
 
 Basically the user is allowed to upload <NODE_MAX_UPLOADS> images per <NODE_TIME_LIMIT> seconds
+
+## Retrieval
+All the Images are saved in the public/images directory with their original name (if I had more time I would've randomized the names) <br>
+you can retrieve an image in 2 ways:
+
+you can GET /image/:imageName <br>
+or you GET /images/:imageName
